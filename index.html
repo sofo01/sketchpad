@@ -8,19 +8,21 @@
   <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-    <header>
-      <h1>Etch-A-Sketchpad</h1>
+    <header class="container-fluid">
+      <div class="row">
+        <h1 class="col-xs-12">Etch-A-Sketchpad</h1>
+      </div>
     </header>
     <main>
       <section class="sketchpad_options container-fluid">
         <div class="row">
           <div class="col-xs-6">
             <label class="no_of_block_label" for="no_of_blocks">Choose No of blocks: </label>
-            <input type="text" name="no_of_blocks" class="no_of_blocks form-control" />
+            <input type="text" name="no_of_blocks" value="16" class="no_of_blocks form-control" />
           </div>
           <div class="col-xs-6">
             <label class="color_label" for="color">Choose color: </label>
-            <select class="btn btn-default">
+            <select class="btn btn-default color">
               <option>Black</option>
               <option>Red</option>
               <option>Yellow</option>
@@ -31,16 +33,19 @@
         </div>
         <div class="row">
           <div class="col-xs-6">
-            <button class="btn btn-default make_sletch">Lets Sketch!!!</button>
+            <button class="btn btn-default make_sketch">Lets Sketch!!!</button>
           </div>
           <div class="col-xs-6">
             <button class="btn btn-default clear_sketch">Start over..</button>
           </div>
         </div>
       </section>
+      <section class="container-fluid sketchpad"></section>
     </main>
-    <footer>
-      <p>Developed by Sofoklis Theodoulou</p>
+    <footer class="container-fluid">
+      <div class="row">
+        <p class="col-xs-12">Developed by Sofoklis Theodoulou</p>
+      </div>
     </footer>
 </body>
 </html>

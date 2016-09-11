@@ -1,9 +1,7 @@
-body {}
 header {
   text-align: center;
   margin-bottom: 50px;
 }
-main {}
 select {
   width: 100%;
 }
@@ -12,6 +10,16 @@ select {
 }
 button {
   width: 100%;
+}
+.sketchpad {
+  max-width: 960px;
+  height: 960px;
+  box-sizing: content-box;
+}
+.block {
+  border: 1px solid;
+  float: left;
+  box-sizing: content-box;
 }
 footer {
   text-align: center;
