@@ -4,8 +4,16 @@ header {
   margin-bottom: 50px;
 }
 main {}
+select {
+  width: 100%;
+}
+.row {
+  margin-bottom: 20px;
+}
+button {
+  width: 100%;
+}
 footer {
   text-align: center;
   margin-top: 50px;
 }
-
